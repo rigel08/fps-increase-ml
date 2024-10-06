@@ -30,8 +30,7 @@ The FPS Increase ML project is a powerful tool for increasing video frame rates 
 ### ⚠️ **Note: Model Limitations**
 While the model successfully interpolates frames to increase FPS, **it's not yet fully optimized**. There may be inconsistencies, particularly with videos containing rapid scene changes or complex motion. The current version is limited to 720p resolution, and more improvements are planned in future updates.
 
-### 🐛 Known Issues:
-- Performance may degrade in scenes with rapid changes.
-- Limited resolution support (720p) for now.
 
-The project is under active development, and your feedback is crucial to help refine it!
+### 📬 Contact:
+For questions, reach out to **srihithrao13@gmail.com** or open an issue on GitHub.
+
