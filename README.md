@@ -1,88 +1,37 @@
-# fps-increase-ml
-An advanced machine learning project for increasing the frame rate of videos using frame interpolation techniques. This project utilizes deep learning to intelligently generate intermediate frames, resulting in smoother video playback without altering the original speed.
-🚀 Features
+The FPS Increase ML project is a powerful tool for increasing video frame rates through deep learning-based frame interpolation, but it's important to note that **the model is still in development and not yet perfect**. While it can generate smoother playback, there are some limitations and areas for improvement that are being actively worked on.
 
-Train custom ML models for frame interpolation
-Increase video FPS without changing playback speed
-Utilize GPU acceleration for faster processing
-Seamless integration with Google Colab for easy use
-Persistent model storage using Google Drive
-User-friendly command-line interface
+### 🚀 Features:
+- **Train Custom ML Models**: Tailor frame interpolation models to specific needs.
+- **Frame Rate Enhancement**: Increase FPS without speeding up videos.
+- **GPU Acceleration**: Leverage GPU for faster processing.
+- **Colab Integration**: Seamlessly run in Google Colab with Google Drive support.
+- **User-friendly Interface**: Easy command-line interactions for users.
 
-📋 Table of Contents
+### 🛠 Installation:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/rigel08/fps-increase-ml.git
+   cd fps-increase-ml
+   ```
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Optional - GPU Acceleration**: Set up CUDA for faster performance with PyTorch.
 
-Installation
-Usage
-Project Structure
-Contributing
-License
-Acknowledgments
+### 🖥 Usage:
+- Open the **fps_increase_ml.ipynb** notebook in Google Colab.
+- Set up the environment and mount your Google Drive.
+- Choose to either:
+  - Train a new model (option 1), or
+  - Use an existing model (option 2).
+- Upload a video, and the enhanced video will be saved to Google Drive.
 
-🛠 Installation
+### ⚠️ **Note: Model Limitations**
+While the model successfully interpolates frames to increase FPS, **it's not yet fully optimized**. There may be inconsistencies, particularly with videos containing rapid scene changes or complex motion. The current version is limited to 720p resolution, and more improvements are planned in future updates.
 
-Clone this repository:
-Copygit clone https://github.com/rigel08/fps-increase-ml.git
-cd fps-increase-ml
+### 🐛 Known Issues:
+- Performance may degrade in scenes with rapid changes.
+- Limited resolution support (720p) for now.
 
-Install the required dependencies:
-Copypip install -r requirements.txt
-
-(Optional) For GPU acceleration, ensure you have CUDA installed and compatible with your PyTorch version.
-
-🖥 Usage
-
-Open the fps_increase_ml.ipynb notebook in Google Colab.
-Run the cells to set up the environment and mount your Google Drive.
-Choose to train a new model or use an existing one:
-
-To train a new model, select option 1 when prompted
-To use an existing model, select option 2 when prompted
-
-
-Follow the prompts to upload a video for processing.
-The output video will be saved to your Google Drive.
-
-📁 Project Structure
-Copyfps-increase-ml/
-│
-├── fps_increase_ml.ipynb  # Main Colab notebook
-├── requirements.txt       # Project dependencies
-├── LICENSE                # MIT License file
-└── README.md              # This file
-🤝 Contributing
-We welcome contributions to improve FPS Increase ML! If you'd like to contribute, please:
-
-Fork the repository
-Create a new branch for your feature
-Commit your changes
-Push to your branch
-Create a new Pull Request
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-🙏 Acknowledgments
-
-PyTorch team for their excellent deep learning framework
-OpenCV contributors for their computer vision tools
-Google Colab for providing free GPU resources
-
-
-📊 Project Roadmap
-
- Implement basic frame interpolation model
- Integrate with Google Colab and Google Drive
- Optimize model architecture for better performance
- Add support for different video formats
- Implement a web-based user interface
- Create comprehensive documentation and tutorials
-
-🐛 Known Issues
-
-Performance may degrade on videos with rapid scene changes
-Limited to 720p resolution in the current version
-
-Please check the Issues page for an up-to-date list of known issues and planned improvements.
-📬 Contact
-For any questions or feedback, please open an issue on GitHub or contact the maintainer at srihithrao13@gmail.com.
-
-⭐ If you find this project useful, please consider giving it a star on GitHub! ⭐
+The project is under active development, and your feedback is crucial to help refine it!
