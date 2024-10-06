@@ -13,10 +13,6 @@ The FPS Increase ML project is a powerful tool for increasing video frame rates 
    git clone https://github.com/rigel08/fps-increase-ml.git
    cd fps-increase-ml
    ```
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
 3. **Optional - GPU Acceleration**: Set up CUDA for faster performance with PyTorch.
 
 ### 🖥 Usage:
